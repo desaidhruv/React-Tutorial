@@ -4,6 +4,7 @@ import './App.css';
 import Greet from './components/greet';
 import Welcome from './components/Welcome';
 import Message from './components/Message';
+import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
@@ -16,7 +17,8 @@ function App() {
       <Greet name = "Hrithik" heroName="Superman"/>
       <Welcome name = "Dhruv" heroName="Batman"/>
       <Welcome name = "Sakshu" heroName="Wonder Woman"/> */}
-      <Message />
+      {/* <Message /> */}
+      <Counter />
     </div>
   );
 }
