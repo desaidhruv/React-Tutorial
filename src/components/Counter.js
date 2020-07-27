@@ -8,18 +8,28 @@ class Counter extends Component {
         }
     }
     Increment(){
-        this.setState({ 
-            count: this.state.count + 1 
-        },() => {
-            console.log('Callback Value',this.state.count)
-        });
+        // this.setState({ 
+        //     count: this.state.count + 1 
+        // },() => {
+        //     console.log('Callback Value',this.state.count)
+        // });
+        this.setState((prevState) => ({
+            count: prevState.count + 1
+        }))
         console.log(this.state.count);
+    }
+    IncrementFive() {
+        this.Increment();
+        this.Increment();
+        this.Increment();
+        this.Increment();
+        this.Increment();
     }
     render() {
         return (
             <div>
                 Count - {this.state.count}
-                <button onClick={() => this.Increment()}>Increment</button>
+                <button onClick={() => this.IncrementFive()}>Increment</button>
             </div>
         )
     }
