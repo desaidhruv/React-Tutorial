@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Greet from './components/greet';
 import Welcome from './components/Welcome';
@@ -8,12 +7,14 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 function App() {
   return (
     <div className="App">
       {/* <FunctionClick />
       <ClassClick /> */}
-      <EventBind />
+      {/* <EventBind /> */}
+      <ParentComponent />
       {/* <Greet name = "Dhruv" heroName="Batman">
         <p>This is children props.</p>
       </Greet>
