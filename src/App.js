@@ -8,13 +8,25 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import UserGreetingComponent from './components/UserGreeting';
+import NameList from './components/NameList';
+import StyleSheets from './components/StyleSheets';
+import Inline from './components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
 function App() {
   return (
     <div className="App">
+      <h1 className="error">Error</h1>
+      <h1 className={styles.success}>Success</h1>
       {/* <FunctionClick />
       <ClassClick /> */}
       {/* <EventBind /> */}
-      <ParentComponent />
+      {/* <ParentComponent />
+      <UserGreetingComponent /> */}
+      <Inline />
+      <StyleSheets primary={true} />
+      {/* <NameList /> */}
       {/* <Greet name = "Dhruv" heroName="Batman">
         <p>This is children props.</p>
       </Greet>
