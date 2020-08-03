@@ -15,6 +15,7 @@ import StyleSheets from './components/StyleSheets';
 import Inline from './components/Inline';
 import './appStyles.css'
 import styles from './appStyles.module.css'
+import Mounting from './components/Mounting'
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ function App() {
       <UserGreetingComponent /> */}
       {/* <Inline /> */}
       <Form />
+      <Mounting />
       {/* <StyleSheets primary={true} /> */}
       {/* <NameList /> */}
       {/* <Greet name = "Dhruv" heroName="Batman">
