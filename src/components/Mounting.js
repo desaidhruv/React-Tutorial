@@ -4,7 +4,7 @@ export class Mounting extends Component {
     render() {
         return (
             <div>
-                
+                This is the mount method.
             </div>
         )
     }
