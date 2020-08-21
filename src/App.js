@@ -16,6 +16,7 @@ import Inline from './components/Inline';
 import './appStyles.css'
 import styles from './appStyles.module.css'
 import Mounting from './components/Mounting'
+import LifeCycleA from './components/LifeCycleA'
 function App() {
   return (
     <div className="App">
@@ -27,8 +28,9 @@ function App() {
       {/* <ParentComponent />
       <UserGreetingComponent /> */}
       {/* <Inline /> */}
-      <Form />
-      <Mounting />
+      {/* <Form /> */}
+      {/* <Mounting /> */}
+      <LifeCycleA />
       {/* <StyleSheets primary={true} /> */}
       {/* <NameList /> */}
       {/* <Greet name = "Dhruv" heroName="Batman">
