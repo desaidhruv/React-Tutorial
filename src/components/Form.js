@@ -44,7 +44,11 @@ class Form extends Component {
             <form onSubmit={this.handleSubmit}>
                 <div>
                     <label>Username:</label><br></br>
-                    <input type="text" value={username} onChange={this.handleUserChange}/>
+                    <input 
+                        type="text" 
+                        value={username} 
+                        onChange={this.handleUserChange}
+                    />
                 </div><br></br>
                 <div>
                     <label>Comments:</label><br></br>
