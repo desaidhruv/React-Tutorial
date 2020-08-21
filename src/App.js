@@ -17,6 +17,8 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import Mounting from './components/Mounting'
 import LifeCycleA from './components/LifeCycleA'
+import FragmentDemo from './components/FragmentDemo'
+import Table from './components/Table'
 function App() {
   return (
     <div className="App">
@@ -30,7 +32,9 @@ function App() {
       {/* <Inline /> */}
       {/* <Form /> */}
       {/* <Mounting /> */}
-      <LifeCycleA />
+      {/* <LifeCycleA /> */}
+      {/* <FragmentDemo /> */}
+      <Table />
       {/* <StyleSheets primary={true} /> */}
       {/* <NameList /> */}
       {/* <Greet name = "Dhruv" heroName="Batman">
