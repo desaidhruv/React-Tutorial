@@ -23,7 +23,7 @@ export class RefsDemo extends Component {
         return (
             <div>
                 <input type="text" ref = { this.inputRef}/>
-                <button onClick={this.clickHandler}>Hey bitch</button>
+                <button onClick={this.clickHandler}>Hello Button</button>
             </div>
         )
     }
