@@ -13,7 +13,7 @@ class FocusInput extends Component {
         return (
             <div>
                 <Input  ref = { this.componentRef}/>
-                <button onClick={this.clickHandler}>Focus Input</button>                
+                <button onClick={this.clickHandler}>Focusing Input</button>                
             </div>
         )
     }
