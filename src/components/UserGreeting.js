@@ -11,7 +11,7 @@ class UserGreeting extends Component {
         super(props)
     
         this.state = {
-             isLoggedIn: true
+            isLoggedIn: true
         }
     }
     
