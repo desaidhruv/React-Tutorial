@@ -19,6 +19,10 @@ import Mounting from './components/Mounting'
 import LifeCycleA from './components/LifeCycleA'
 import FragmentDemo from './components/FragmentDemo'
 import Table from './components/Table'
+import ParentComp from './components/ParentComp'
+import RefsDemo from './components/RefsDemo'
+import FocusInput from './components/FocusInput'
+
 function App() {
   return (
     <div className="App">
@@ -34,7 +38,10 @@ function App() {
       {/* <Mounting /> */}
       {/* <LifeCycleA /> */}
       {/* <FragmentDemo /> */}
-      <Table />
+      {/* <Table /> */}
+      {/* <ParentComp /> */}
+      {/* <RefsDemo /> */}
+      <FocusInput />
       {/* <StyleSheets primary={true} /> */}
       {/* <NameList /> */}
       {/* <Greet name = "Dhruv" heroName="Batman">
